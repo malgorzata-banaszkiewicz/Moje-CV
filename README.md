@@ -1,3 +1,3 @@
 # CV Małgorzata Banaszkiewicz
-Curriculum Vitae napisane w języku html i css. 
-CV można wyświetlić w przeglądarce lub pobrać w formie pliku pdf.
+Curriculum Vitae wrote in html i css languages. 
+CV can be viewed in a browser or downloaded as pdf file.
