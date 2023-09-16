@@ -1,0 +1,79 @@
+body {
+	display: grid;
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 320px 1fr;
+	grid-template-rows: auto;
+}
+
+.header {
+	display: grid;
+	height: 100%;
+	grid-row: 1/15;
+	grid-column: 1/3;
+}
+
+.profile-picture {
+	height: 520px;
+	width: 320px;
+}
+
+.name {
+	display: grid;
+	height: min-content;
+	grid-column: 2/3;
+	grid-row: 1/2;
+	justify-content: start;
+	background-color: #ed6495;
+}
+
+.about_me {
+	display: grid;
+	grid-column: 1/2;
+	grid-row: 12 /13;
+	background-color: #ed6495;
+}
+
+.contact_info {
+	display: grid;
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.wrapper {
+	display: grid;
+	grid-column: 1/3;
+	grid-row: 13/100;
+}
+
+.languages {
+	display: grid;
+	grid-row: 13 /;
+}
+
+.education {
+	display: grid;
+	grid-row: 4/5;
+}
+
+.hobby {
+	display: grid;
+	grid-row: 5/6;
+}
+
+.experiance {
+	display: grid;
+	grid-column: 2/3;
+	/* grid-row: 3/4; */
+}
+
+.rodo {
+	display: grid;
+	grid-column: 1/3;
+	/* grid-row: 4/5; */
+}
